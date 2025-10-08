@@ -304,6 +304,12 @@ filelock==3.19.1 \
 flask==3.1.2 \
     --hash=sha256:bf656c15c80190ed628ad08cdfd3aaa35beb087855e2f494910aa3774cc4fd87 \
     --hash=sha256:ca1d8112ec8a6158cc29ea4858963350011b5c846a414cdb7a954aa9e967d03c
+    # via
+    #   flask-cors
+    #   mlflow
+flask-cors==6.0.1 \
+    --hash=sha256:c7b2cbfb1a31aa0d2e5341eea03a6805349f7a61647daee1a15c46bbe981494c \
+    --hash=sha256:d81bcb31f07b0985be7f48406247e9243aced229b7747219160a0559edd678db
     # via mlflow
 fonttools==4.59.2 \
     --hash=sha256:0476ea74161322e08c7a982f83558a2b81b491509984523a1a540baf8611cc31 \
@@ -618,17 +624,17 @@ mdurl==0.1.2 \
     --hash=sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8 \
     --hash=sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba
     # via markdown-it-py
-mlflow==3.4.0 \
-    --hash=sha256:065ca7f9acda7bdfbc01deefdcb31172c91ff954ad76405a9d1f9d67dea4c33c \
-    --hash=sha256:a564f9296b860fe710c0574f9f309b53ae30662eb969994df2453b198fa4c3bb
+mlflow==3.5.0rc0 \
+    --hash=sha256:ba16511691d6bb031a7bd20bfca674e5c45dec4f36ed67a1895dce07811071b0 \
+    --hash=sha256:fe784a8f767ace6f84b42e64aeacac1c7e8d6b4c6272e7fb5f0cf3a30f477e5b
     # via mlflow-genai-samples
-mlflow-skinny==3.4.0 \
-    --hash=sha256:1730207e64811b00ebfa2d5b9b899212a7e6a06e8cd49eb3f90888ff7e7bc3a7 \
-    --hash=sha256:51e06c1f717093501a9a1b2d5b7bea382bd1b7c3542a52f824c510263f86f0c7
+mlflow-skinny==3.5.0rc0 \
+    --hash=sha256:338bdc6ecf32114179754f08ee6fe3916e3b6dbaa04f84be3402f8d4a303c4b0 \
+    --hash=sha256:53c64db02b937ea6c5139836f71d7660cb9cca0cf8f57f042a08298a6a0d70a5
     # via mlflow
-mlflow-tracing==3.4.0 \
-    --hash=sha256:06e4a423373c96507f3e40d00a564665a375e0d78856917e52dd78d8b833edf2 \
-    --hash=sha256:805537d43387717c355bcc07c065941f1614ed037de75b73c168cdf60d5e6e08
+mlflow-tracing==3.5.0rc0 \
+    --hash=sha256:4b4ff2456a3a2d6b61e2ffd4a8b99655c10e0cc31d25cce4c30ea07ad5f04f11 \
+    --hash=sha256:ff1d8076bd222ebea5712cf5140f2e7ec12e56277f0bac9c15b7160098702841
     # via mlflow
 more-itertools==10.8.0 \
     --hash=sha256:52d4362373dcf7c52546bc4af9a86ee7c4579df9a8dc268be0a2f949d376cc9b \
@@ -1310,6 +1316,7 @@ werkzeug==3.1.1 \
     --hash=sha256:a71124d1ef06008baafa3d266c02f56e1836a5984afd6dd6c9230669d60d9fb5
     # via
     #   flask
+    #   flask-cors
     #   openapi-core
 xxhash==3.5.0 \
     --hash=sha256:08424f6648526076e28fae6ea2806c0a7d504b9ef05ae61d196d571e5c879c84 \
