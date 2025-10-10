@@ -8,14 +8,14 @@ readme = "README.md"
 authors = []
 
 dependencies = [
-    "pydantic~=2.11.10",
+    "pydantic~=2.12.0",
     "python-dateutil~=2.9.0",
     "pytest-dotenv~=0.5.2",
     "jsonschema~=4.25.1",
     "mlflow~=3.5.0rc0",
-    "openai~=2.1.0",
+    "openai~=2.3.0",
     "dspy~=3.0.3",
-    "datasets~=4.1.1",
+    "datasets~=4.2.0",
     "ipykernel~=6.30.1",
 ]
 
@@ -26,7 +26,7 @@ dev = [
     "pytest-mock~=3.15.1",
     "pytest-dotenv~=0.5.2",
     "pre-commit~=4.3.0",
-    "ruff~=0.13.3",
+    "ruff~=0.14.0",
     "pyright~=1.1.406",
     "pytest-asyncio~=1.2.0",
     "pytest-cov~=7.0.0",
