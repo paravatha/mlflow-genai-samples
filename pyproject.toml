@@ -8,7 +8,7 @@ readme = "README.md"
 authors = []
 
 dependencies = [
-    "pydantic~=2.12.0",
+    "pydantic~=2.12.2",
     "python-dateutil~=2.9.0",
     "pytest-dotenv~=0.5.2",
     "jsonschema~=4.25.1",
@@ -16,7 +16,7 @@ dependencies = [
     "openai~=2.3.0",
     "dspy~=3.0.3",
     "datasets~=4.2.0",
-    "ipykernel~=6.30.1",
+    "ipykernel~=7.0.1",
 ]
 
 # Development dependencies of the project.
