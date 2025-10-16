@@ -140,7 +140,6 @@ colorama==0.4.6 ; sys_platform == 'win32' \
     # via
     #   click
     #   colorlog
-    #   pytest
     #   tqdm
 colorlog==6.9.0 \
     --hash=sha256:5906e71acd67cb07a71e779c47c4bcb45fb8c2993eebe9e5adcd6a6f1b283eff \
@@ -422,10 +421,6 @@ importlib-metadata==8.7.0 \
     #   litellm
     #   mlflow-skinny
     #   opentelemetry-api
-iniconfig==2.1.0 \
-    --hash=sha256:3abbd2e30b36733fee78f9c7f7308f2d0050e88f0087fd25c2645f63c773e1c7 \
-    --hash=sha256:9deba5723312380e77435581c6bf4935c94cbfab9b1ed33ef8d238ea168eb760
-    # via pytest
 isodate==0.7.2 \
     --hash=sha256:28009937d8031054830160fce6d409ed342816b543597cece116d966c6d99e15 \
     --hash=sha256:4cd1aa0f43ca76f4a6c6c0292a85f40b35ec2e43e315b59f06e6d32171a953e6
@@ -562,17 +557,17 @@ mdurl==0.1.2 \
     --hash=sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8 \
     --hash=sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba
     # via markdown-it-py
-mlflow==3.5.0rc0 \
-    --hash=sha256:ba16511691d6bb031a7bd20bfca674e5c45dec4f36ed67a1895dce07811071b0 \
-    --hash=sha256:fe784a8f767ace6f84b42e64aeacac1c7e8d6b4c6272e7fb5f0cf3a30f477e5b
+mlflow==3.5.0 \
+    --hash=sha256:138cd211eac787d0db80523f8f2456c562c6dd82b3eb912a2a42d96f3a9c4fa3 \
+    --hash=sha256:ea06c79d933c30fe863cb7c809818c36f356e58a3f4007ab1f6c6c3b752c2b3e
     # via mlflow-genai-samples
-mlflow-skinny==3.5.0rc0 \
-    --hash=sha256:338bdc6ecf32114179754f08ee6fe3916e3b6dbaa04f84be3402f8d4a303c4b0 \
-    --hash=sha256:53c64db02b937ea6c5139836f71d7660cb9cca0cf8f57f042a08298a6a0d70a5
+mlflow-skinny==3.5.0 \
+    --hash=sha256:496cb9bf4e0d5b96082407a923e34636ea748ab928d35c288d1f19ec5493705e \
+    --hash=sha256:d9cf914ed6746a6097ef51d1a377a4c5c0f46aa174d3f89efbdc31feb2cf572b
     # via mlflow
-mlflow-tracing==3.5.0rc0 \
-    --hash=sha256:4b4ff2456a3a2d6b61e2ffd4a8b99655c10e0cc31d25cce4c30ea07ad5f04f11 \
-    --hash=sha256:ff1d8076bd222ebea5712cf5140f2e7ec12e56277f0bac9c15b7160098702841
+mlflow-tracing==3.5.0 \
+    --hash=sha256:0cd2b0a2574d52974901fba9cc7a441b3215a343a1aa321d0a81fbba496d60aa \
+    --hash=sha256:e757648c7b752c517803fe45a6e29381a4faa5b985b36944da972a0d90a00eb0
     # via mlflow
 more-itertools==10.8.0 \
     --hash=sha256:52d4362373dcf7c52546bc4af9a86ee7c4579df9a8dc268be0a2f949d376cc9b \
@@ -715,7 +710,6 @@ packaging==25.0 \
     #   mlflow-skinny
     #   mlflow-tracing
     #   optuna
-    #   pytest
 pandas==2.3.2 \
     --hash=sha256:0bd281310d4f412733f319a5bc552f86d62cddc5f51d2e392c8787335c994175 \
     --hash=sha256:1b9b52693123dd234b7c985c68b709b0b009f4521000d0525f2b95c22f15944b \
@@ -750,10 +744,6 @@ pillow==11.3.0 \
     --hash=sha256:eb76541cba2f958032d79d143b98a3a6b3ea87f0959bbe256c0b5e416599fd5d \
     --hash=sha256:fdae223722da47b024b867c1ea0be64e0df702c5e0a60e27daad39bf960dd1e4
     # via matplotlib
-pluggy==1.6.0 \
-    --hash=sha256:7dcc130b76258d33b90f61b658791dede3486c3e6bfb003ee5c9bfb396dd22f3 \
-    --hash=sha256:e920276dd6813095e9377c0bc5566d94c932c33b27a3e3945d8389c374dd4746
-    # via pytest
 propcache==0.3.2 \
     --hash=sha256:035e631be25d6975ed87ab23153db6a73426a48db688070d925aa27e996fe93c \
     --hash=sha256:0b504d29f3c47cf6b9e936c1852246c83d450e8e063d50562115a6be6d3a2535 \
@@ -857,9 +847,7 @@ pydantic-settings==2.11.0 \
 pygments==2.19.2 \
     --hash=sha256:636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887 \
     --hash=sha256:86540386c03d588bb81d44bc3928634ff26449851e99741617ecb9037ee5ec0b
-    # via
-    #   pytest
-    #   rich
+    # via rich
 pyparsing==3.2.3 \
     --hash=sha256:a749938e02d6fd0b59b356ca504a24982314bb090c383e3cf201c95ef7e2bfcf \
     --hash=sha256:b9c13f1ab8b3b542f72e28f634bad4de758ab3ce4546e4301970ad6fa77c38be
@@ -868,14 +856,6 @@ pyperclip==1.11.0 \
     --hash=sha256:244035963e4428530d9e3a6101a1ef97209c6825edab1567beac148ccc1db1b6 \
     --hash=sha256:299403e9ff44581cb9ba2ffeed69c7aa96a008622ad0c46cb575ca75b5b84273
     # via fastmcp
-pytest==8.4.2 \
-    --hash=sha256:86c0d0b93306b961d58d62a4db4879f27fe25513d4b969df351abdddb3c30e01 \
-    --hash=sha256:872f880de3fc3a5bdc88a11b39c9710c3497a547cfa9320bc3c5e62fbf272e79
-    # via pytest-dotenv
-pytest-dotenv==0.5.2 \
-    --hash=sha256:2dc6c3ac6d8764c71c6d2804e902d0ff810fa19692e95fe138aefc9b1aa73732 \
-    --hash=sha256:40a2cece120a213898afaa5407673f6bd924b1fa7eafce6bda0e8abffe2f710f
-    # via mlflow-genai-samples
 python-dateutil==2.9.0.post0 \
     --hash=sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3 \
     --hash=sha256:a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427
@@ -892,7 +872,6 @@ python-dotenv==1.1.1 \
     #   litellm
     #   mlflow-skinny
     #   pydantic-settings
-    #   pytest-dotenv
 python-multipart==0.0.20 \
     --hash=sha256:8a62d3a8335e06589fe01f2a3e178cdcc632f3fbe0d492ad9ee0ec35aab1f104 \
     --hash=sha256:8dd0cab45b8e23064ae09147625994d090fa46f5b0d1e13af944c331a7fa9d13

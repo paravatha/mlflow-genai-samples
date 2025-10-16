@@ -658,17 +658,17 @@ mdurl==0.1.2 \
     --hash=sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8 \
     --hash=sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba
     # via markdown-it-py
-mlflow==3.5.0rc0 \
-    --hash=sha256:ba16511691d6bb031a7bd20bfca674e5c45dec4f36ed67a1895dce07811071b0 \
-    --hash=sha256:fe784a8f767ace6f84b42e64aeacac1c7e8d6b4c6272e7fb5f0cf3a30f477e5b
+mlflow==3.5.0 \
+    --hash=sha256:138cd211eac787d0db80523f8f2456c562c6dd82b3eb912a2a42d96f3a9c4fa3 \
+    --hash=sha256:ea06c79d933c30fe863cb7c809818c36f356e58a3f4007ab1f6c6c3b752c2b3e
     # via mlflow-genai-samples
-mlflow-skinny==3.5.0rc0 \
-    --hash=sha256:338bdc6ecf32114179754f08ee6fe3916e3b6dbaa04f84be3402f8d4a303c4b0 \
-    --hash=sha256:53c64db02b937ea6c5139836f71d7660cb9cca0cf8f57f042a08298a6a0d70a5
+mlflow-skinny==3.5.0 \
+    --hash=sha256:496cb9bf4e0d5b96082407a923e34636ea748ab928d35c288d1f19ec5493705e \
+    --hash=sha256:d9cf914ed6746a6097ef51d1a377a4c5c0f46aa174d3f89efbdc31feb2cf572b
     # via mlflow
-mlflow-tracing==3.5.0rc0 \
-    --hash=sha256:4b4ff2456a3a2d6b61e2ffd4a8b99655c10e0cc31d25cce4c30ea07ad5f04f11 \
-    --hash=sha256:ff1d8076bd222ebea5712cf5140f2e7ec12e56277f0bac9c15b7160098702841
+mlflow-tracing==3.5.0 \
+    --hash=sha256:0cd2b0a2574d52974901fba9cc7a441b3215a343a1aa321d0a81fbba496d60aa \
+    --hash=sha256:e757648c7b752c517803fe45a6e29381a4faa5b985b36944da972a0d90a00eb0
     # via mlflow
 more-itertools==10.8.0 \
     --hash=sha256:52d4362373dcf7c52546bc4af9a86ee7c4579df9a8dc268be0a2f949d376cc9b \
@@ -1045,7 +1045,6 @@ pytest-cov==7.0.0 \
 pytest-dotenv==0.5.2 \
     --hash=sha256:2dc6c3ac6d8764c71c6d2804e902d0ff810fa19692e95fe138aefc9b1aa73732 \
     --hash=sha256:40a2cece120a213898afaa5407673f6bd924b1fa7eafce6bda0e8abffe2f710f
-    # via mlflow-genai-samples
 pytest-mock==3.15.1 \
     --hash=sha256:0a25e2eb88fe5168d535041d09a4529a188176ae608a6d249ee65abc0949630d \
     --hash=sha256:1849a238f6f396da19762269de72cb1814ab44416fa73a8686deac10b0d87a0f
